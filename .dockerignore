@@ -1,0 +1,20 @@
+# Environment files
+venv/
+.env
+.vscode/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Data files
+*.csv
+*.tsv
+*.tsv.gz
+
+# Log files
+*.log
+
+# Miscellaneous
+Dockerfile
+README.md
