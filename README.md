@@ -17,12 +17,20 @@ Data pipeline for processing IMDb movie data, transforming it into structured ta
 - **Warehouse:** Google BigQuery
 - **Containerization:** Docker
 
+## Data Flow
+
+![Data Flow Diagram](data_flow_diagram.png)
+
+## Prerequisites
+- Python 3.12+
+- Google Cloud account with BigQuery enabled
+
 ## Local Installation
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/Alfredomg7/IMDbMoviesETL.git
-    cd IMDbMoviesETL
+    git clone https://github.com/Alfredomg7/IMDBMoviesETL.git
+    cd IMDBMoviesETL
     ```
 
 2. **Create a virtual environment (optional but recommended):**
@@ -46,6 +54,9 @@ Data pipeline for processing IMDb movie data, transforming it into structured ta
     The ETL job will start, and you can monitor the console output for progress.
 
 ## Docker Installation
+
+### Prerequisites
+- Docker installed locally
 
 1. **Build the image:**
     ```bash
